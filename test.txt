@@ -1,0 +1,26 @@
+La suma de 2 + 2 es igual a 4
+Colocamos la instrucción a realizar e inmediatamente después colocamos el resultado esperado.
+
+En la terminal ejecutamos el comando "python -m docset nombre_archivo.txt"
+Si no ocurre nada quiere decir que todo salió bien
+>>> 2 + 2
+4
+
+La suma de 10 + 20 es 30
+>>> 10 + 20
+30
+
+Podemos incluir funciones
+
+>>> def suma(*args):
+...		return sum(args)
+
+La suma de 10 + 20 + 30 debe ser 60
+>>> suma(10, 20, 30)
+60
+
+Para importar modulos lo hacemos de la siguiente manera
+>>> from doctest_1 import fibonacci
+>>> fibonacci(12)
+144
+
