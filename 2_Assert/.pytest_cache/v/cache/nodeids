@@ -1,0 +1,5 @@
+[
+  "test.py::test_fibonacci_cinco",
+  "test.py::test_palindromo_anita",
+  "test.py::test_factorial_cinco"
+]
